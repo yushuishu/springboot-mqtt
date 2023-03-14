@@ -38,3 +38,12 @@ spring:
         temp:
           use_jdbc_metadata_defaults: true
     show-sql: true
+  mqtt:
+    username: root
+    password: 123456
+    host-url: tcp://broker.emqx.io:1883
+    client-id: HTePy4ZF9I8d
+    default-topic: light,tv
+    timeout: 100
+    keepalive: 100
+    enabled: true
